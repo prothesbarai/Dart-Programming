@@ -63,11 +63,27 @@ void main(){
   /*
 
       🔍 তুলনা টেবিল:
-      
+
           Loop টাইপ	            Index ব্যবহার	          break/continue    কোড স্টাইল	           পারফরম্যান্স
           for (int i...)	        ✅ হ্যাঁ	                  ✅ হ্যাঁ	        Imperative	             ভালো
           for (var x in...)	      ❌ না	                  ✅ হ্যাঁ	         Clean	                 ভালো
           forEach	                ❌ না	                  ❌ না	       Functional	            কিছুটা কম
   
    */
+
+
+
+  var list2_te_Apple_ase_kina = list2.contains("Apple"); // Case Sensative.....
+  print("list2 te Apple ase ? = $list2_te_Apple_ase_kina");
+  var list2_te_Apple_thakle_koto_index_e_Ase = list2.indexOf("Apple");
+  print("list2 te Apple thakle koto index e Ase ? = $list2_te_Apple_thakle_koto_index_e_Ase Proved list2 = $list2");
+  print("List2 te item kom ase 1 number position e item add koro");
+  list2.insert(1, "Banana");
+  print("Add item : $list2");
+  print("Akta Item e hobe na aksate 2 number position e more item add koro");
+  List<String> list5 = ["Orange","Painaple","Watermelon"];
+  list2.insertAll(2, list5);
+  print("Add More Items in List2 = $list2");
+
+
 }
