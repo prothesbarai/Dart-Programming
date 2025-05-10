@@ -19,7 +19,7 @@ void main(){
   bool bol1 = true;// Fixed Choose Data Type .... (bool)    yes
   var bol2 = false;// Dynamicly Choose Data Type .... (var) No
 
-  var list = [1,2,3,4,5,6,7]; 
+   
 
   print("Integer = $sum");
   print("var = $sub");
@@ -28,11 +28,15 @@ void main(){
   print("var = $myS2");
   print("bool = $bol1");
   print("var = $bol2");
+
+  // >>> ========== List Start Here ==========
+  var list = [1,2,3,4,5,6,7];
   print("List = $list");
   var pos = 3;
   var listPos = list[pos];
   print("List $pos Position value is = $listPos");
+  print("Total List Length = ${list.length}");
+  // <<< ========== List End Here ==========
 
-
-
+  
 }
