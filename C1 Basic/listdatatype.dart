@@ -112,7 +112,36 @@ void main(){
   print("\n============ Abr Condition Onujai Item Filter kore ber korte hobe ===================\n");
   var findItemFromList1= list1.where((test)=> test <= 5).toList(); // Here To List Convert () to []
   print("Find Item From List1 = $findItemFromList1");
-  var evenFromList1 = list1.where((x)=> x.isEven).toList();  // Here To List Convert () to []
+  var oddFromList1 = list1.where((x)=> x.isOdd).toList();  // Here To List Convert () to []
+  print("Find ODD Number From List1 = $oddFromList1");
+  var evenFromList1 = list1.where((y)=> y%2 == 0).toList(); // Here To List Convert () to []
   print("Find Even Number From List1 = $evenFromList1");
+
+  print("\n===========প্রতিটি element modify করে নতুন list তৈরি করা==========");
+  var m1l1 = list1.map((e)=> e*e).toList();  // Here To List Convert () to []
+  print("New Modify List1 = $m1l1");
+  var m2l1 = list2.map((x)=> x.toUpperCase()).toList();  // Here To List Convert () to []
+  print("New Modify List2 = $m2l1");
+
+
+  print("\n================any() এবং every() → কোনো condition একাধিক element-এর জন্য check================");
+  var anyItem = list1.any((items)=> items > 5);
+  print("Any Items Is Big Than 5 in List1 = $anyItem");
+
+  var everyItems = list1.every((element) => element>5,);
+  print("Every Items Is Big Than 5 in List1 = $everyItems");
+
+  
+
+  print("\n===========Empty List Check==========");
+  print("List1 is Empty = ${list1.isEmpty}");
+  print("List1 is Not Empty = ${list1.isNotEmpty}");
+
+
+  
+
+
+  list1.clear();
+  print("Finally List1 is Empty = $list1");
 
 }
