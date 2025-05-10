@@ -81,9 +81,32 @@ void main(){
   list2.insert(1, "Banana");
   print("Add item : $list2");
   print("Akta Item e hobe na aksate 2 number position e more item add koro");
-  List<String> list5 = ["Orange","Painaple","Watermelon"];
+  List<String> list5 = ["Orange","Painaple","Watermelon","Mango"];
   list2.insertAll(2, list5);
   print("Add More Items in List2 = $list2");
+  print("List2 length = ${list2.length}");
+  print("Akhon half item neye akta sublist banao ai list2 theke");
 
+  var partlist = list2.sublist(0,4); // 0 theke 3 number index item projonto nebe....
+  print("List2 Length is ${list2.length} So Sublist is : $partlist");
+
+
+  print("List1 : $list1");
+  print("List2 : $list2");
+  print("List3 : $list3");
+  print("List4 : $list4");
+  print("List5 : $list5");
+  print("partlist : $partlist");
+  list1.sort();
+  print("Sorted List1 = $list1");
+  list2.sort();
+  print("Sorted List2 = $list2");
+
+
+  list1.shuffle();
+  print("Shuffel List1 = $list1");
+  list2.shuffle();
+  print("Shuffel List2 = $list2");
+  
 
 }
