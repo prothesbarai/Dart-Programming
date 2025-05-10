@@ -16,12 +16,22 @@ void main(){
   
   var myS2 = "This is Fixed String with Dynamic Choose datatype"; // Dynamicly Choose Data Type .... (var)
 
+  bool bol1 = true;// Fixed Choose Data Type .... (bool)    yes
+  var bol2 = false;// Dynamicly Choose Data Type .... (var) No
+
+  var list = [1,2,3,4,5,6,7]; 
 
   print("Integer = $sum");
   print("var = $sub");
   print("double = $mul");
   print("String = $myS1");
   print("var = $myS2");
+  print("bool = $bol1");
+  print("var = $bol2");
+  print("List = $list");
+  var pos = 3;
+  var listPos = list[pos];
+  print("List $pos Position value is = $listPos");
 
 
 
