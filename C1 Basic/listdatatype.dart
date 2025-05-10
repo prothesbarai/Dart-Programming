@@ -16,7 +16,7 @@ void main(){
   List<String> list4 = ["Banana","Orange","Mango"];
   list2.addAll(list4);
   print("New List list2 = $list2");
-  var reverse_order = list2.reversed;
+  var reverse_order = list2.reversed.toList();  // Here To List Convert () to []
   print("Reverse List = $reverse_order");
   var ritm = "Mango";
   var remvb = list2.remove(ritm);
@@ -108,5 +108,11 @@ void main(){
   list2.shuffle();
   print("Shuffel List2 = $list2");
   
+
+  print("\n============ Abr Condition Onujai Item Filter kore ber korte hobe ===================\n");
+  var findItemFromList1= list1.where((test)=> test <= 5).toList(); // Here To List Convert () to []
+  print("Find Item From List1 = $findItemFromList1");
+  var evenFromList1 = list1.where((x)=> x.isEven).toList();  // Here To List Convert () to []
+  print("Find Even Number From List1 = $evenFromList1");
 
 }
