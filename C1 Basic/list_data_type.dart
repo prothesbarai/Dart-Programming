@@ -117,6 +117,7 @@ void main(){
   var evenFromList1 = list1.where((y)=> y%2 == 0).toList(); // Here To List Convert () to []
   print("Find Even Number From List1 = $evenFromList1");
 
+
   print("\n===========প্রতিটি element modify করে নতুন list তৈরি করা==========");
   var m1l1 = list1.map((e)=> e*e).toList();  // Here To List Convert () to []
   print("New Modify List1 = $m1l1");
