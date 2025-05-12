@@ -145,4 +145,13 @@ void main(){
   list1.clear();
   print("Finally List1 is Empty = $list1");
 
+
+
+  List<String> list8 = ["Apple","Banana","Orange","Painaple","Tomato","Mango","Extra1","Extra2"];
+  var firstHalf  = list8.sublist(0, list8.length ~/ 2); // This is ( ~/ ) Integer Division Operator
+  print(firstHalf );
+
+  var secondHalf = list8.sublist(list8.length ~/2);
+  print(secondHalf);
+ 
 }
