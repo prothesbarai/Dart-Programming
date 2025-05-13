@@ -39,5 +39,27 @@ void main(){
   myList2.removeRange(1, 5);
   print(myList2);
 
+
+  myList2.removeWhere((item) => item == 3);
+  print(myList2);
+
+  var cd1 = myList2.any((element) => element>=5);
+  print(cd1);
   
+  var cd2 = myList2.every((value) => value > 100);
+  print(cd2);
+
+
+  var cd3 = myList2.where((value) => value.isEven).toList();
+  print(cd3);
+
+  var cd4 = myList2.where((value) => value.isOdd).toList();
+  print(cd4);
+
+
+  var cd5 = myList2.where((value) => value.isNegative).toList();
+  print(cd5);
+
+  var cd6 = myList2.contains(99);
+  print(cd6);
 }
