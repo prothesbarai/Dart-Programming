@@ -17,4 +17,13 @@ void main(){
   print(myList1);
   var firstHalf  = myList1.sublist(0, myList1.length ~/2);
   print(firstHalf );
+
+  var lastHalf = myList1.sublist(myList1.length ~/2 );
+  print(lastHalf);
+
+  myList2.sort();
+  print(myList2);
+  myList2.shuffle();
+  print(myList2);
+
 }
