@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main(){
   List<String> myList1 = ["Apple","Banana","Orange","Painaple","Tomato","Mango"];
   List<int> myList2 = [100,99,1,2,3,4,21,23,5,6,7,8,9,89,56];

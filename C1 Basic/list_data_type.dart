@@ -124,6 +124,14 @@ void main(){
   var m2l1 = list2.map((x)=> x.toUpperCase()).toList();  // Here To List Convert () to []
   print("New Modify List2 = $m2l1");
 
+  /*              ব্যবহারের জায়গা	                           map() এর কাজ
+                  Widget list বানানো	                         হ্যাঁ ✅
+                  API ডেটা থেকে UI	                           হ্যাঁ ✅
+                  Dropdown/Radio build	                       হ্যাঁ ✅
+                  JSON to Model	                               হ্যাঁ ✅
+                  Simple value transform	                     হ্যাঁ ✅
+  */
+
 
   print("\n================any() এবং every() → কোনো condition একাধিক element-এর জন্য check================");
   var anyItem = list1.any((items)=> items > 5);
