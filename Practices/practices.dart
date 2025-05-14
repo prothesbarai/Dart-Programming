@@ -77,4 +77,12 @@ void main(){
   var cd10 = myList2.map((element) => element*element).toList();
   print(cd10);
 
+
+  var cd11 = myList2.map((ee) => ee.toDouble()).toList();
+  print(cd11);
+
+  var cd12 = myList2.map((ps)=>ps.toString()).toList();
+  print(cd12);
+  
+
 }

@@ -121,7 +121,7 @@ void main(){
   print("\n===========প্রতিটি element modify করে নতুন list তৈরি করা==========");
   var m1l1 = list1.map((e)=> e*e).toList();  // Here To List Convert () to []
   print("New Modify List1 = $m1l1");
-  var m2l1 = list2.map((x)=> x.toUpperCase()).toList();  // Here To List Convert () to []
+  var m2l1 = list2.map((x)=> x.toUpperCase()).toList();  // Here To List Convert () to [] .... toint todouble tostring  anythins
   print("New Modify List2 = $m2l1");
 
   /*              ব্যবহারের জায়গা	                           map() এর কাজ
