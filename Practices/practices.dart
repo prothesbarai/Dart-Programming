@@ -1,3 +1,5 @@
+import 'dart:math';
+
 void main(){
   List<String> myList1 = ["Apple","Banana","Orange","Painaple","Tomato","Mango"];
   List<int> myList2 = [100,99,1,2,3,4,21,23,5,6,7,8,9,89,56];
@@ -62,4 +64,19 @@ void main(){
 
   var cd6 = myList2.contains(99);
   print(cd6);
+
+  var cd7 = myList2.indexOf(99);
+  print(cd7);
+
+
+  var cd8 = myList2.isEmpty;
+  print(cd8);
+
+  var cd9 = myList2.isNotEmpty;
+  print(cd9);
+
+  print(myList2);
+  var cd10 = myList2.map((element) => element*element).toList();
+  print(cd10);
+
 }
