@@ -83,7 +83,7 @@ void main(){
   print(cd11);
 
 
-  var cd12 = myList2.map((e)=> e.).toList();
+  var cd12 = myList2.map((e)=> e).toList();
   print(cd12);
   
   var cd13= myList2.map((e)=> e.isOdd).toList();
