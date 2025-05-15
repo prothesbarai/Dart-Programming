@@ -74,15 +74,20 @@ void main(){
   print(cd9);
 
   print(myList2);
-  var cd10 = myList2.map((element) => element*element).toList();
+  
+
+  var cd10 = myList2.map((e)=> e*e).toList();
   print(cd10);
-
-
-  var cd11 = myList2.map((ee) => ee.toDouble()).toList();
+  
+  var cd11 = myList2.map((e)=> e%2 == 0).toList();
   print(cd11);
 
-  var cd12 = myList2.map((ps)=>ps.toString()).toList();
+
+  var cd12 = myList2.map((e)=> e.).toList();
   print(cd12);
+  
+  var cd13= myList2.map((e)=> e.isOdd).toList();
+  print(cd13);
   
 
 }
