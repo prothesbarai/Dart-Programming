@@ -1,6 +1,6 @@
 # 📘 Dart Programming Practice
 
-Welcome to the **Dart Programming Practice** repository! This repository is crafted for learning and improving your Dart programming skills, especially if you're preparing to dive into Flutter development. 🚀
+Welcome to the **Dart Programming Practice** repository! This repository is crafted for learning and improving your Dart programming skills, especially if you're preparing to dive into Flutter development. 🚀   
 
 ---
 
